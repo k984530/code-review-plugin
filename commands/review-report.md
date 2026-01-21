@@ -3,10 +3,10 @@ name: review-report
 description: 4개의 전문 에이전트를 통해 코드 변경사항을 종합 분석
 arguments:
   - name: target
-    description: 리뷰 대상 경로 (기본값: 현재 디렉토리)
+    description: "리뷰 대상 경로 (기본값: 현재 디렉토리)"
     required: false
   - name: type
-    description: 특정 리뷰 타입만 실행 (screen, side-effect, quality, qa)
+    description: "특정 리뷰 타입만 실행 (screen, side-effect, quality, qa)"
     required: false
 ---
 
