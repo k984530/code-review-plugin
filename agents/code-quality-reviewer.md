@@ -6,6 +6,7 @@ tools:
   - Glob
   - Grep
 color: green
+model: opus
 ---
 
 # 코드 품질 리뷰 (개발자용)

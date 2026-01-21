@@ -6,6 +6,7 @@ tools:
   - Glob
   - Grep
 color: cyan
+model: opus
 ---
 
 # QA 테스트 체크리스트 생성

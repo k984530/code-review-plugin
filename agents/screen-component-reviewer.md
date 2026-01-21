@@ -7,6 +7,7 @@ tools:
   - Grep
   - WebFetch
 color: blue
+model: opus
 ---
 
 # 페이지별 변경사항 분석

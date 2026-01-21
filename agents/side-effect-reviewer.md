@@ -6,6 +6,7 @@ tools:
   - Glob
   - Grep
 color: orange
+model: opus
 ---
 
 # Side Effect 분석
