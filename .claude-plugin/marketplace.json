@@ -1,26 +1,24 @@
 {
-  "name": "review-report",
-  "displayName": "Review Report",
-  "description": "종합 코드 리뷰 도구 - 6개의 전문 에이전트를 통한 체계적인 코드 리뷰 수행",
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "code-review-plugin-registry",
   "version": "1.0.0",
-  "author": {
+  "description": "Plugin registry for review-report",
+  "owner": {
     "name": "choiwon"
   },
-  "license": "MIT",
-  "repository": "",
-  "keywords": [
-    "code-review",
-    "quality",
-    "analysis",
-    "side-effect",
-    "qa",
-    "user-flow"
-  ],
-  "categories": [
-    "Code Quality",
-    "Development Tools"
-  ],
-  "engines": {
-    "claude-code": ">=1.0.0"
-  }
+  "plugins": [
+    {
+      "name": "review-report",
+      "description": "종합 코드 리뷰 도구 - 6개의 전문 에이전트를 통한 체계적인 코드 리뷰 수행",
+      "version": "1.0.0",
+      "author": {
+        "name": "choiwon"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/k984530/code-review-plugin.git"
+      },
+      "category": "productivity"
+    }
+  ]
 }
